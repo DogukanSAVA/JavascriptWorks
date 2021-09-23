@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="/style.css">
+    <title>CSS Variables</title>
+</head>
+
+<body>
+    <h2>Update CSS Variables with <span class="h1">JS</span></h2>
+
+    <div class="controls">
+        <div class="one-box">
+            <!-- spacing controls -->
+            <label for="spacing">Spacing:</label>
+            <input type="range" id="spacing" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+            <!-- blur controls -->
+            <label for="blur">Blur:</label>
+            <input type="range" id="blur" name="blur" min="0" max="25" value="0" data-sizing="px">
+        </div>
+
+        <div class="two-box">
+            <!-- color controls -->
+            <label for="base">Background Color:</label>
+            <input type="color" id="base" name="base" value="#ffc600">
+
+            <!-- border-radius controls -->
+            <label for="border">Border Radius:</label>
+            <input type="range" id="border" name="border" min="0" max="50" value="0" data-sizing="%">
+        </div>
+    </div>
+
+    <img src="/images/pexels-nataliya-vaitkevich-5863400.jpg">
+    <script src="/app.js"></script>
+</body>
+
+</html>
