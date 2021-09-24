@@ -1,0 +1,161 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background: url(../images/nature.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 35rem;
+  max-height: 100%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 5px;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.container #title {
+  font-size: 2rem;
+  background-color: #2a87d3;
+  margin: 1rem 0;
+  padding: 0.2rem 0.5rem;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgb(0, 0, 0,0.1);
+}
+
+.container #message {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.container #message span{
+  color: #2a87d3;
+  font-weight: bolder;
+  font-size:1.5rem;
+}
+
+.container #message i {
+  margin: 0 10px;
+  color: #2a87d3;
+}
+
+.container #mailBox {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.container #mailBox .mailItem {
+  width:inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid rgb(163, 163, 163);
+  position: relative;
+}
+.container #mailBox .mailItem:last-child {
+  border-bottom: none;
+}
+.container #mailBox .mailItem .mailInput {
+  margin-right: 0.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #2a87d3;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.container #mailBox .mailItem .mailInput:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.container #mailBox .mailItem .mailInput:checked + p {
+  text-decoration: line-through;
+}
+
+.container #mailBox .mailItem p {
+  border-left: 1px solid #2a87d3;
+  padding: 20px;
+  flex: 1;
+  letter-spacing: 0.5px;
+  border-radius: 0 5px 5px 0;
+}
+
+.container #mailBox .mailItem i {
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  transition: 0.5s;
+  margin-right: 5px;
+}
+
+.container #mailBox .mailItem i:hover {
+  color: #2a87d3;
+  transform: rotate(30deg);
+}
+
+.container .buttons {
+  width: 80%;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container .buttons .btn {
+  padding: 0.5rem;
+  color: white;
+  background-color: #2a87d3;
+  font-weight: bold;
+  outline: 0;
+  border: 0;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0,0.1);
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.container .buttons .btn:hover {
+  transform: scale(1.02);
+}
+
+.container .buttons .btnDeleteSelected {
+  background-color: rgb(160, 7, 7);
+}
+
+.container .buttons .btnDeleteSelected:hover {
+  background-color: rgba(160, 7, 7, 0.8);
+}
+
+.container .buttons .btnDeleteAll {
+  background-color: rgba(0, 0, 0, 1);
+}
+.container .buttons .btnDeleteAll:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container .buttons .btnMarkAsRead {
+  background-color:#2a87d3;
+}
+
+.container .buttons .btnMarkAsRead:hover {
+  background-color: #2a87d3;
+  opacity: 0.8;
+}

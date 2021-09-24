@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- import Css -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Hold Shift and Check Checkboxes</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 id="title">S-Mail</h1>
+        <h2 id="message">You have new mail.</h2>
+
+        <div id="mailBox">
+            <div class="mailItem">
+                <input type="checkbox" class="mailInput">
+                <p class="mailInfo">Ankaracell Fatura Bildirimi</p>
+                <a href="#"><i class="fas fa-trash-alt"></i></a>
+            </div>
+            <div class="mailItem">
+                <input type="checkbox" class="mailInput">
+                <p class="mailInfo">YapmazKredi Aralık Ayı E-extre Servisi</p>
+                <a href="#"><i class="fas fa-trash-alt"></i></a>
+            </div>
+            <div class="mailItem">
+                <input type="checkbox" class="mailInput">
+                <p class="mailInfo">Yurt Telekom Bilgilendirme</p>
+                <a href="#"><i class="fas fa-trash-alt"></i></a>
+            </div>
+            <div class="mailItem">
+                <input type="checkbox" class="mailInput">
+                <p class="mailInfo">Biriburada Alışveriş Memnuniyeti</p>
+                <a href="#"><i class="fas fa-trash-alt"></i></a>
+            </div>
+            <div class="mailItem">
+                <input type="checkbox" class="mailInput">
+                <p class="mailInfo">Kepic Games</p>
+                <a href="#"><i class="fas fa-trash-alt"></i></a>
+            </div>
+            <div class="mailItem">
+                <input type="checkbox" class="mailInput">
+                <p class="mailInfo">Sinstagram</p>
+                <a href="#"><i class="fas fa-trash-alt"></i></a>
+            </div>
+            <div class="mailItem">
+                <input type="checkbox" class="mailInput">
+                <p class="mailInfo">Facelessbook</p>
+                <a href="#"><i class="fas fa-trash-alt"></i></a>
+            </div>
+            <div class="mailItem">
+                <input type="checkbox" class="mailInput">
+                <p class="mailInfo">Mamazon</p>
+                <a href="#"><i class="fas fa-trash-alt"></i></a>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="btn btnMarkAsRead">Mark as read.</button>
+            <button class="btn btnDeleteSelected">Delete selected mails</button>
+            <button class="btn btnDeleteAll">Delete all mails</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
