@@ -48,6 +48,13 @@ Topics
 
 ![8](https://user-images.githubusercontent.com/45499414/134930298-5ccde589-443d-4729-bd4b-91a47bfdcce9.JPG)
 
+09 - TextTranslateSound [ https://texttransla.web.app/ ]
+
+![9](https://user-images.githubusercontent.com/45499414/134931277-6fb1e371-4a1a-4a8c-8c1a-df57b2cfb6cb.JPG)
+
+10 - Timers [ https://timers-bd71c.web.app/ ]
+
+![10](https://user-images.githubusercontent.com/45499414/134932285-ed3115f3-afaf-4c3a-b6e3-a739eac84041.JPG)
 
 
 
