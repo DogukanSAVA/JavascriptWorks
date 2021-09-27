@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Countdown Timer</title>
+</head>
+<body>
+    <div class="timer">
+        <div class="timer__controls">
+            <button data-time="20" class="timer__button">20 Saniye</button>
+            <button data-time="300" class="timer__button">5 Dakika</button>
+            <button data-time="900" class="timer__button">15 Dakika</button>
+            <button data-time="1200" class="timer__button">20 Dakika</button>
+            <button data-time="3600" class="timer__button">1 Saat</button>
+            <form name = "customForm" id="custom">
+                <input id="timeInput" type="text" name="minutes" placeholder="Dakika Giriniz">
+            </form>
+        </div>
+        <div class="display">
+            <h1 class="display__time-left"></h1>
+            <p class="display__end-time"></p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
