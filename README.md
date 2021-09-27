@@ -1,6 +1,6 @@
 # JavascriptWorks
 
-Learn Vanilla Js - Full Course --
+Learn Vanilla Js - Full Course -- 10 Tutorial
 
 Topics
 
@@ -35,5 +35,13 @@ Topics
 05 - Webcam [ https://webcam-656e1.web.app/ ]
 
 ![5](https://user-images.githubusercontent.com/45499414/134922497-a0ffccb7-a526-47fd-98f2-5e9e04ccde4b.JPG)
+
+06 - FollowText [ https://followtext-54cb1.web.app/ ]
+
+![6](https://user-images.githubusercontent.com/45499414/134923792-9dcd9d04-8d9c-415a-998c-bb6834a6d35e.JPG)
+
+07 - VideoSpeedController [ https://videospeed-3ae7d.web.app/ ]
+
+![7](https://user-images.githubusercontent.com/45499414/134925961-122ba9cc-f3e2-4207-baed-ff35193a08be.JPG)
 
 
